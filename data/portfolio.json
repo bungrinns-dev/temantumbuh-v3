@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "title": "Batik Nusantara",
+    "slug": "batik-nusantara",
+    "category": "Starter Growth System",
+    "industry": "Fashion & Kerajinan",
+    "location": "Pekalongan, Jawa Tengah",
+    "tagline": "Dari pengrajin lokal ke brand batik yang dipercaya pelanggan luar kota",
+    "problem": "Hanya mengandalkan Instagram dan mulut ke mulut. Calon pelanggan dari luar kota ragu beli karena tidak ada informasi lengkap dan bisnis terlihat kurang profesional.",
+    "solution": "Website katalog produk + WhatsApp funnel + integrasi Google Maps",
+    "result_headline": "+23 inquiry bulan pertama",
+    "results": [
+      { "metric": "23", "unit": "inquiry/bulan", "label": "Bulan pertama setelah launch" },
+      { "metric": "4.8★", "unit": "Google", "label": "Rating Google Business" },
+      { "metric": "3×", "unit": "lebih", "label": "Pelanggan luar kota" }
+    ],
+    "testimonial": "Bulan pertama setelah punya website, langsung ada 23 inquiry baru dari luar kota yang masuk via WhatsApp. Sekarang bisnis saya terlihat lebih serius.",
+    "testimonial_author": "Dewi Kartika, Owner",
+    "color": "#2d9b50",
+    "accent": "#f59520",
+    "featured": true,
+    "year": 2024
+  },
+  {
+    "id": 2,
+    "title": "Kursus Memasak Bu Ratna",
+    "slug": "kursus-memasak-bu-ratna",
+    "category": "Conversion System",
+    "industry": "Edukasi & Kuliner",
+    "location": "Yogyakarta",
+    "tagline": "Landing page yang mengubah Instagram follower menjadi peserta kursus berbayar",
+    "problem": "Punya banyak follower Instagram tapi susah convert jadi peserta kursus. Orang tertarik tapi tidak ada halaman yang bisa menjelaskan value secara lengkap.",
+    "solution": "Landing page konversi tinggi + inquiry funnel WhatsApp + sistem pendaftaran",
+    "result_headline": "Konversi peserta naik 3×",
+    "results": [
+      { "metric": "3×", "unit": "konversi", "label": "Peserta kursus berbayar" },
+      { "metric": "67%", "unit": "closing", "label": "Dari pengunjung ke inquiry" },
+      { "metric": "2 minggu", "unit": "ROI", "label": "Balik modal website" }
+    ],
+    "testimonial": "Dulu susah banget convert follower jadi peserta. Sekarang tinggal share link, mereka langsung tahu semua info dan chat WA sendiri.",
+    "testimonial_author": "Ratna Sari, Owner & Pengajar",
+    "color": "#e07d00",
+    "accent": "#2d9b50",
+    "featured": true,
+    "year": 2024
+  },
+  {
+    "id": 3,
+    "title": "CV Mitra Bangunan Jaya",
+    "slug": "cv-mitra-bangunan-jaya",
+    "category": "Visibility System",
+    "industry": "Konstruksi & Properti",
+    "location": "Jakarta Timur",
+    "tagline": "Company profile yang membuka pintu tender Rp250 juta via Google",
+    "problem": "Tidak muncul di Google saat calon klien mencari kontraktor. Kehilangan banyak peluang tender karena terlihat tidak cukup profesional.",
+    "solution": "Company profile + Google Business optimization + local SEO + portfolio proyek",
+    "result_headline": "Menang tender Rp250 juta via website",
+    "results": [
+      { "metric": "Rp250jt", "unit": "tender", "label": "Pertama via website" },
+      { "metric": "#1", "unit": "Google", "label": "Pencarian kontraktor lokal" },
+      { "metric": "8", "unit": "leads/bulan", "label": "Rata-rata inquiry B2B" }
+    ],
+    "testimonial": "Tidak nyangka bisa dapat tender besar dari Google. Klien bilang mereka pilih kami karena website kami terlihat paling profesional.",
+    "testimonial_author": "Budi Santoso, Direktur",
+    "color": "#155a2b",
+    "accent": "#f59520",
+    "featured": true,
+    "year": 2025
+  },
+  {
+    "id": 4,
+    "title": "Apotek Sehat Bersama",
+    "slug": "apotek-sehat-bersama",
+    "category": "Starter Growth System",
+    "industry": "Kesehatan & Farmasi",
+    "location": "Bandung, Jawa Barat",
+    "tagline": "Apotek lokal yang kini mudah ditemukan dan dipercaya komunitas sekitar",
+    "problem": "Kalah bersaing dengan apotek chain besar. Pelanggan baru sulit menemukan apotek ini karena tidak ada kehadiran digital.",
+    "solution": "Website informasi + Google Maps optimization + integrasi WhatsApp untuk cek stok",
+    "result_headline": "+40% pelanggan baru dari area sekitar",
+    "results": [
+      { "metric": "+40%", "unit": "pelanggan", "label": "Baru dari area sekitar" },
+      { "metric": "Top 3", "unit": "Google Maps", "label": "Pencarian 'apotek Bandung'" },
+      { "metric": "15+", "unit": "review", "label": "Google dalam 2 bulan" }
+    ],
+    "testimonial": "Sekarang banyak pelanggan baru yang bilang ketemu di Google. Padahal dulu sama sekali tidak ada yang tahu apotek kami ada.",
+    "testimonial_author": "Ibu Herni, Apoteker & Owner",
+    "color": "#1f7a3a",
+    "accent": "#e07d00",
+    "featured": false,
+    "year": 2025
+  },
+  {
+    "id": 5,
+    "title": "Studio Foto Momento",
+    "slug": "studio-foto-momento",
+    "category": "Conversion System",
+    "industry": "Fotografi & Kreatif",
+    "location": "Surabaya, Jawa Timur",
+    "tagline": "Booking studio naik 2× dengan sistem reservasi online yang simpel",
+    "problem": "Proses booking masih manual lewat DM Instagram. Banyak yang tanya tapi tidak jadi karena responnya lambat dan tidak ada info harga yang transparan.",
+    "solution": "Landing page + sistem booking via WhatsApp otomatis + price list + galeri portofolio",
+    "result_headline": "Booking naik 2× dalam 30 hari",
+    "results": [
+      { "metric": "2×", "unit": "booking", "label": "Naik dalam 30 hari pertama" },
+      { "metric": "90%", "unit": "lebih cepat", "label": "Proses konfirmasi booking" },
+      { "metric": "0", "unit": "missed", "label": "Inquiry yang tidak terjawab" }
+    ],
+    "testimonial": "Sebelumnya banyak yang tanya harga lalu ghosting. Sekarang yang hubungi via website lebih serius dan langsung booking.",
+    "testimonial_author": "Aldi Pratama, Fotografer & Owner",
+    "color": "#0d3d1d",
+    "accent": "#f59520",
+    "featured": false,
+    "year": 2025
+  },
+  {
+    "id": 6,
+    "title": "Toko Elektronik Maju",
+    "slug": "toko-elektronik-maju",
+    "category": "Visibility System",
+    "industry": "Elektronik & Retail",
+    "location": "Surabaya, Jawa Timur",
+    "tagline": "Katalog online yang menghemat 3 jam per hari dari pertanyaan berulang",
+    "problem": "Owner capek jawab pertanyaan yang sama berulang di WhatsApp. Harga, stok, spesifikasi — semua ditanya satu per satu setiap hari.",
+    "solution": "Katalog produk digital + WhatsApp smart funnel + FAQ page + search produk",
+    "result_headline": "Hemat 3 jam/hari, inquiry naik 2×",
+    "results": [
+      { "metric": "3 jam", "unit": "/hari", "label": "Waktu dihemat untuk CS manual" },
+      { "metric": "2×", "unit": "inquiry", "label": "Berkualitas masuk per bulan" },
+      { "metric": "85%", "unit": "pertanyaan", "label": "Terjawab otomatis via website" }
+    ],
+    "testimonial": "Dulu habis waktu jawab WA terus. Sekarang tinggal kasih link website, semua info lengkap. Waktu saya jauh lebih free untuk urusan bisnis lain.",
+    "testimonial_author": "Rudi Hermawan, Owner",
+    "color": "#2d9b50",
+    "accent": "#155a2b",
+    "featured": false,
+    "year": 2024
+  }
+]
