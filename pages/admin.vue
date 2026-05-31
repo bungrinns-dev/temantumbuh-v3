@@ -313,6 +313,7 @@
 <script setup>
 import portfolioData from '~/data/portfolio.json'
 
+definePageMeta({ layout: 'admin' })
 useHead({ title: 'Admin Portfolio — Teman Tumbuh' })
 
 const portfolio = ref(JSON.parse(JSON.stringify(portfolioData)))
@@ -395,7 +396,7 @@ async function copyJson() {
 </script>
 
 <style scoped>
-.admin-page { min-height:100vh;background:var(--gray-50);padding-bottom:80px;padding-top:0 }
+.admin-page { min-height:100vh;background:var(--gray-50);padding-bottom:80px;padding-top:0;font-family:var(--font-body) }
 .admin-header { background:white;border-bottom:1px solid var(--gray-100);padding:1.25rem 5vw;position:sticky;top:0;z-index:50 }
 .admin-header-inner { max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap }
 .admin-brand { display:flex;align-items:center;gap:14px }
