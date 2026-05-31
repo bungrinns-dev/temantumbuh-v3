@@ -13,16 +13,16 @@
           v-for="cat in categories" :key="cat"
           class="filter-btn"
           :class="{ active: activeFilter === cat }"
-          @click="activeFilter = cat"
+          @click="setFilter(cat)"
         >{{ cat }}</button>
       </div>
 
-      <div class="portfolio-grid">
+      <div class="portfolio-grid" :class="{ animating: isAnimating }">
         <div
           v-for="(item, i) in filteredPortfolio"
           :key="item.id"
-          class="portfolio-card reveal"
-          :class="`reveal-d${(i%3)+1}`"
+          class="portfolio-card"
+          :style="{ animationDelay: `${(i % 3) * 0.1}s` }"
         >
           <!-- Visual header -->
           <div class="pc-header" :style="{ background: `linear-gradient(135deg, ${item.color}, ${item.accent})` }">
@@ -97,10 +97,21 @@ import portfolioData from '~/data/portfolio.json'
 
 const portfolio = portfolioData
 const activeFilter = ref('Semua')
+const isAnimating = ref(false)
+
 const categories = computed(() => ['Semua', ...new Set(portfolio.map(p => p.category))])
 const filteredPortfolio = computed(() =>
   activeFilter.value === 'Semua' ? portfolio : portfolio.filter(p => p.category === activeFilter.value)
 )
+
+function setFilter(cat) {
+  if (cat === activeFilter.value) return
+  isAnimating.value = true
+  setTimeout(() => {
+    activeFilter.value = cat
+    isAnimating.value = false
+  }, 150)
+}
 </script>
 
 <style scoped>
@@ -108,8 +119,13 @@ const filteredPortfolio = computed(() =>
 .portfolio-filters { display:flex;gap:0.6rem;flex-wrap:wrap;justify-content:center;margin-bottom:2.5rem }
 .filter-btn { background:white;border:1.5px solid var(--gray-200);color:var(--gray-600);padding:8px 18px;border-radius:50px;font-size:0.82rem;font-weight:600;cursor:pointer;transition:all 0.2s;font-family:var(--font-body) }
 .filter-btn:hover,.filter-btn.active { background:var(--green-600);border-color:var(--green-600);color:white }
-.portfolio-grid { display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:1.5rem;margin-bottom:3rem }
-.portfolio-card { background:white;border-radius:22px;overflow:hidden;border:1px solid var(--gray-100);transition:all 0.3s }
+.portfolio-grid { display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:1.5rem;margin-bottom:3rem;transition:opacity 0.15s ease }
+.portfolio-grid.animating { opacity:0 }
+@keyframes fadeUp {
+  from { opacity:0;transform:translateY(20px) }
+  to { opacity:1;transform:translateY(0) }
+}
+.portfolio-card { background:white;border-radius:22px;overflow:hidden;border:1px solid var(--gray-100);transition:box-shadow 0.3s,transform 0.3s;animation:fadeUp 0.4s ease both }
 .portfolio-card:hover { box-shadow:var(--shadow-lg);transform:translateY(-4px) }
 /* Header */
 .pc-header { padding:1.75rem;position:relative;display:flex;align-items:center;justify-content:center }

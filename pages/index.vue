@@ -6,6 +6,7 @@
     <SectionReposition />
     <SectionLayanan />
     <SectionWhyUs />
+    <SectionAI />
     <SectionPortfolio />
     <SectionHarga />
     <SectionProcess />
